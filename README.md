@@ -50,14 +50,14 @@ This will generate an executable file called `binarization` in current direcotry
 ## Binarize PDF File
 
 
-Put all PDF files to binarize into input directory.
+Put all PDF files to binarize into `input` directory.
 
 ```
 # In pdf_image_binarization
 python3 binarize.py
 ```
 
- After finishing, converted PDF files will be in output directory, each with the same name.
+ After finishing, converted PDF files will be in `output` directory, each with the same name.
 
 ## Others
 
