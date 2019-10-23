@@ -1,0 +1,3 @@
+[submodule "local_adaptive_binarization"]
+	path = local_adaptive_binarization
+	url = https://github.com/chriswolfvision/local_adaptive_binarization

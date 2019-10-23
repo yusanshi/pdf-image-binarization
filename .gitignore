@@ -1,0 +1,4 @@
+.vscode
+input/*.pdf
+output/*.pdf
+binarization
