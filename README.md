@@ -39,7 +39,7 @@ sudo apt install img2pdf
 
 ### Clone & Build
 ```
-git clone http://github.com/yusanshi/pdf_image_binarization --recursive
+git clone https://github.com/yusanshi/pdf_image_binarization --recursive
 cd pdf_image_binarization
 make
 ```
