@@ -2,8 +2,6 @@ import os
 import pathlib
 import shutil
 import subprocess
-import PyPDF2
-from PIL import Image
 
 
 def binarize_an_image(input_image, output_image):
