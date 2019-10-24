@@ -4,8 +4,8 @@ import shutil
 import subprocess
 
 
-def binarize_an_image(input_image, output_image):
-    subprocess.run(['./binarization', input_image, output_image])
+def binarize_an_image(input_image, output_image, k=0.3):
+    subprocess.run(['./binarization', '-k', str(k), input_image, output_image])
 
 
 def pdf_to_images(pdf_path, image_dir_path):

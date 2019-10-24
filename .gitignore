@@ -2,3 +2,4 @@
 input/*.pdf
 output/*.pdf
 binarization
+temp
