@@ -1,5 +1,4 @@
 import os
-import pathlib
 import shutil
 import subprocess
 
@@ -21,9 +20,8 @@ def pdf_to_images(pdf_path, image_dir_path):
 def images_to_pdf(image_dir_path, pdf_path, extension='*.tif'):
     assert os.path.isdir(
         image_dir_path), '{} does not exist or is not a directory.'.format(image_dir_path)
-
-    subprocess.run('img2pdf {} -o {} --pagesize A4'.format(os.path.join(image_dir_path,
-                                                                        extension), pdf_path), shell=True)
+    subprocess.run("img2pdf {} -o '{}' --pagesize A4".format(
+        os.path.join(image_dir_path, extension), pdf_path), shell=True)
 
 
 def main():
