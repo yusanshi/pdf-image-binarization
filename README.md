@@ -41,6 +41,7 @@ sudo apt install img2pdf
 ```
 git clone https://github.com/yusanshi/pdf_image_binarization --recursive
 cd pdf_image_binarization
+cd local_adaptive_binarization && git apply ../opencv.patch && cd ..
 make
 ```
 
@@ -57,7 +58,7 @@ Put all PDF files to binarize into `input` directory.
 python3 binarize.py
 ```
 
- After finishing, converted PDF files will be in `output` directory, each with the same name.
+After finishing, converted PDF files will be in `output` directory, each with the same name.
 
 ## Others
 
