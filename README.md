@@ -39,8 +39,8 @@ sudo apt install img2pdf
 
 ### Clone & Build
 ```
-git clone https://github.com/yusanshi/pdf_image_binarization --recursive
-cd pdf_image_binarization
+git clone https://github.com/yusanshi/pdf-image-binarization --recursive
+cd pdf-image-binarization
 cd local_adaptive_binarization && git apply ../opencv.patch && cd ..
 make
 ```
@@ -54,7 +54,7 @@ This will generate an executable file called `binarization` in current direcotry
 Put all PDF files to binarize into `input` directory.
 
 ```
-# In pdf_image_binarization
+# In pdf-image-binarization
 python3 binarize.py
 ```
 
